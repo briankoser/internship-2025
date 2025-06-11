@@ -8012,11 +8012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\RazorPagesMovies.csproj",
+      "projectUniqueName": "C:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\RazorPagesMovies.csproj",
       "projectName": "RazorPagesMovies",
-      "projectPath": "C:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\RazorPagesMovies.csproj",
+      "projectPath": "C:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\RazorPagesMovies.csproj",
       "packagesPath": "C:\\Users\\brian.koser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\obj\\",
+      "outputPath": "C:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brian.koser\\AppData\\Roaming\\NuGet\\NuGet.Config"

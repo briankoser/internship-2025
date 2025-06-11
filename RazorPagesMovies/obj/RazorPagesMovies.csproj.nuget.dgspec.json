@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\RazorPagesMovies.csproj": {}
+    "c:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\RazorPagesMovies.csproj": {}
   },
   "projects": {
-    "c:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\RazorPagesMovies.csproj": {
+    "c:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\RazorPagesMovies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\RazorPagesMovies.csproj",
+        "projectUniqueName": "c:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\RazorPagesMovies.csproj",
         "projectName": "RazorPagesMovies",
-        "projectPath": "c:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\RazorPagesMovies.csproj",
+        "projectPath": "c:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\RazorPagesMovies.csproj",
         "packagesPath": "C:\\Users\\brian.koser\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\brian.koser\\Documents\\Internship\\2025\\apps\\RazorPagesMovies\\obj\\",
+        "outputPath": "c:\\Users\\brian.koser\\Documents\\GitHub\\internship-2025\\RazorPagesMovies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brian.koser\\AppData\\Roaming\\NuGet\\NuGet.Config"
