@@ -1,3 +1,5 @@
+using DM.MovieApi;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -22,5 +24,10 @@ app.UseAuthorization();
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
+
+
+string bearerToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMTVmMmViNTRmNDgzMGFlOWNmNmFlMjgwNDQ0ZTEwZSIsIm5iZiI6MTc0OTU5MjQ3My4yNjEsInN1YiI6IjY4NDhhOTk5NWNhOTVhZTcxNjMwMjBhYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hqPEZp0sLxQMGYHS1klgnH53dBG-vYLosmW58rdsFdY";
+// RegisterSettings only needs to be called one time when your application starts-up.
+MovieDbFactory.RegisterSettings( bearerToken );
 
 app.Run();

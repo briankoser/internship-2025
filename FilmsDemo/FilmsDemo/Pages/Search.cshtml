@@ -1,0 +1,57 @@
+@page
+@model SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1 class="display-4">Search @Model.SearchString</h1>
+
+<form>
+    <p>
+        <label>Title: <input type="text" asp-for="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<p>Search found @Model.Films.Count results</p>
+
+<table>
+    <thead>
+        <th>
+            @Html.DisplayNameFor(model => model.Films[0].Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Films[0].PosterPath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Films[0].Genres)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Films[0].Overview)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Films[0].ReleaseDate)
+        </th>
+    </thead>
+    <tbody>
+@foreach (var film in Model.Films ?? []) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => film.Title)
+            </td>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => film.PosterPath)">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => film.Genres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => film.Overview)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => film.ReleaseDate)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
